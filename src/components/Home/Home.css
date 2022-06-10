@@ -1,0 +1,28 @@
+.all-food-container{
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+}
+.food-container{
+    padding: 10px;
+    border: 2px solid gold;
+    background-color: goldenrod;
+    border-radius: 20px;
+}
+.food-container img{
+    border-radius: 20px;
+}
+button{
+    margin: 20px 20px;
+    border:1px solid lightblue;
+    outline: 2px solid rgb(75, 138, 176);
+    border-radius: 2px;
+}
+nav{
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
